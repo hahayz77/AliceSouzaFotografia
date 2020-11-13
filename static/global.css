@@ -1,0 +1,45 @@
+.jumbotron{
+    background-color: transparent;  
+    margin-bottom: 0;  
+}
+.container-fluid{
+    padding: 0;
+}
+.navbar, h1, h2, h3, h4, h5 {
+    font-family: 'Satisfy', cursive;
+    color: rgb(92, 49, 84);
+
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+i, a, p, span, .text-primary {
+    color: rgb(92, 49, 84);
+}
+
+p, span{
+    font-family: 'Quicksand', cursive;
+    font-size: 18px;
+}
+
+a:hover{ 
+ text-decoration: none; 
+} 
+
+.background-image{
+    width: 110%;
+    height: 110%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background: url("/img/background.png") no-repeat center / cover;
+    overflow: hidden;
+    z-index: -1;
+}
