@@ -1,10 +1,27 @@
+<script>
+let linkwpp;
+
+function wppLink(){
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    linkwpp = 'https://wa.me/5581987702248?text=Olá!+Gostaria+de+saber+mais+sobre+os+pacotes!';
+    window.open(linkwpp, "_blank");
+  }
+  else{
+    linkwpp = 'https://web.whatsapp.com/send?phone=5581987702248&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+os+pacotes%21&source&data&app_absent';
+    window.open(linkwpp, "_blank");
+    }
+
+}
+
+</script>
+
 <main class="overflow-hide">
     <footer class="container jumbotron">
         <div class="row d-flex justify-content-center my-3">
-                <a href="#1" class="instagram"><i class="fa fa-3x fa-instagram"></i></a>
-                <a href="#1" class="linkedin"><i class="fa fa-3x fa-pinterest"></i></a>                
-                <a href="#1" class="linkedin"><i class="fa fa-3x fa-behance"></i></a>
-                <a href="#1" class="whatsapp"><i class="fa fa-3x fa-whatsapp"></i></a>
+                <a href={"#"} class="instagram"><i class="fa fa-3x fa-instagram"></i></a>
+                <a href={"#"} class="linkedin"><i class="fa fa-3x fa-pinterest"></i></a>                
+                <a href={"#"} class="linkedin"><i class="fa fa-3x fa-behance"></i></a>
+                <a href={"#"} class="whatsapp" on:click={wppLink}><i class="fa fa-3x fa-whatsapp"></i></a>
         </div>
         <div class="row d-flex justify-content-center">
             <p class="text-center"><a href="/">Home</a> | <a href="/sobre">Sobre</a> | <a href="/portfolio">Portfólio</a> | <a href="/contato">Contato</a>

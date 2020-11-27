@@ -5,11 +5,27 @@
 	import ToBehance from "../components/portfolio/ToBehance.svelte";
 
 	let imgs = [
-		{id: 1, src: "img/pp.jpg", link: "/portfolio", alt: "img1", descrição: "Imagem 1", titulo: "Imagem 1", hover: false, modal: ["img/pp.jpg"]},
-		{id: 2, src: "img/pp.jpg", link: "/portfolio", alt: "img2", descrição: "Imagem 2", titulo: "Imagem 2", hover: false, modal: ["img/pp.jpg","img/pp.jpg"]},
-		{id: 3, src: "img/pp.jpg", link: "/portfolio", alt: "img3", descrição: "Imagem 3", titulo: "Imagem 3", hover: false, modal: ["img/pp.jpg","img/pp.jpg","img/pp.jpg"]},
-		{id: 4, src: "img/pp.jpg", link: "/portfolio", alt: "img4", descrição: "Imagem 4", titulo: "Imagem 4", hover: false, modal: ["img/pp.jpg","img/pp.jpg","img/pp.jpg","img/pp.jpg"]},
-		{id: 5, src: "img/pp.jpg", link: "/portfolio", alt: "img5", descrição: "Imagem 5", titulo: "Imagem 5", hover: false, modal: ["img/pp.jpg","img/pp.jpg","img/pp.jpg","img/pp.jpg"]},
+		{id: 1, src: "img/portifolio/infantil/14.jpg", link: "/portfolio", alt: "Infaltis", descrição: "Evenventos Infantis", titulo: "Infantis", hover: false, modal: [
+			"img/portifolio/infantil/01.jpg", "img/portifolio/infantil/02.jpg", "img/portifolio/infantil/03.jpg", "img/portifolio/infantil/04.jpg", 
+			"img/portifolio/infantil/05.jpg", "img/portifolio/infantil/06.jpg", "img/portifolio/infantil/07.jpg", "img/portifolio/infantil/08.jpg", 
+			"img/portifolio/infantil/09.jpg", "img/portifolio/infantil/10.jpg", "img/portifolio/infantil/11.jpg", "img/portifolio/infantil/12.jpg",
+			"img/portifolio/infantil/13.jpg", "img/portifolio/infantil/14.jpg"]},
+		{id: 2, src: "img/portifolio/feminino/07.jpg", link: "/portfolio", alt: "Femininos", descrição: "Ensaios Femininos", titulo: "Femininos", hover: false, modal: [
+			"img/portifolio/feminino/01.jpg", "img/portifolio/feminino/02.jpg", "img/portifolio/feminino/03.jpg", "img/portifolio/feminino/04.jpg",
+			"img/portifolio/feminino/05.jpg", "img/portifolio/feminino/06.jpg", "img/portifolio/feminino/07.jpg", "img/portifolio/feminino/08.jpg",
+			"img/portifolio/feminino/09.jpg", "img/portifolio/feminino/10.jpg", "img/portifolio/feminino/11.jpg", "img/portifolio/feminino/12.jpg",
+			"img/portifolio/feminino/13.jpg"]},
+		{id: 3, src: "img/portifolio/prewedding/06.jpg", link: "/portfolio", alt: "Pre-Wedding", descrição: "Pre-Wedding", titulo: "Pre-Wedding", hover: false, modal: [
+			"img/portifolio/prewedding/01.jpg", "img/portifolio/prewedding/02.jpg", "img/portifolio/prewedding/03.jpg", "img/portifolio/prewedding/04.jpg",
+			"img/portifolio/prewedding/05.jpg", "img/portifolio/prewedding/06.jpg"]},
+		{id: 4, src: "img/portifolio/wedding/03.jpg", link: "/portfolio", alt: "Wedding", descrição: "Wedding", titulo: "Wedding", hover: false, modal: [
+			"img/portifolio/wedding/01.jpg", "img/portifolio/wedding/02.jpg", "img/portifolio/wedding/03.jpg", "img/portifolio/wedding/04.jpg",
+			"img/portifolio/wedding/05.jpg", "img/portifolio/wedding/06.jpg", "img/portifolio/wedding/07.jpg", "img/portifolio/wedding/08.jpg",
+			"img/portifolio/wedding/09.jpg", "img/portifolio/wedding/10.jpg", "img/portifolio/wedding/11.jpg"]},
+		{id: 5, src: "img/portifolio/sweethome/01.jpg", link: "/portfolio", alt: "Sweet Home", descrição: "Sweet Home", titulo: "Sweet Home", hover: false, modal: [
+			"img/portifolio/sweethome/01.jpg", "img/portifolio/sweethome/02.jpg", "img/portifolio/sweethome/03.jpg", "img/portifolio/sweethome/04.jpg",
+			"img/portifolio/sweethome/05.jpg", "img/portifolio/sweethome/06.jpg", "img/portifolio/sweethome/07.jpg", "img/portifolio/sweethome/08.jpg",
+			"img/portifolio/sweethome/09.jpg", "img/portifolio/sweethome/10.jpg"]},
 		{id: 6, src: "img/pp.jpg", link: "/portfolio", alt: "img6", descrição: "Imagem 6", titulo: "Imagem 6", hover: false, modal: ["img/pp.jpg","img/pp.jpg","img/pp.jpg","img/pp.jpg","img/pp.jpg"]}
 		];
 
@@ -98,7 +114,7 @@
 		text-align: center;
 	}
 	.modal img{
-		height: 600px;
+		height: auto;
 		width: 100%;
 		object-fit: cover;
 	}
@@ -108,7 +124,6 @@
 		/* background: rgba(243, 211, 219, 0.9); */
 	}
 	.modal-dialog{
-		padding: 2rem;
 		padding-top: 0;
 		margin: 0 auto;
 		pointer-events: auto;
@@ -117,6 +132,7 @@
 		position: -webkit-sticky;
 		position: sticky;
 		top: 0;
+		padding: 0.8rem;
 		z-index: 1;
 		background: rgba(243, 211, 219);
 		border-top-left-radius: 0;
@@ -135,7 +151,7 @@
 		top: 0; right: 1rem;
 		transition: 0.2s all;
 		color: rgb(92, 49, 84);
-		font-size: 3rem;
+		font-size: 2.5rem;
 		font-weight: 700;
 		opacity: .8;
 	}
@@ -149,8 +165,17 @@
 		h2{
 			font-size: 2rem;
 		}
+		.modal h2{
+			font-size: 1.5rem;
+		}
 		img{
 			height: 200px;
+		}
+		.modal-dialog{
+			padding: 0;
+		}
+		span{
+			font-size: 2.3rem;
 		}
 	}
 

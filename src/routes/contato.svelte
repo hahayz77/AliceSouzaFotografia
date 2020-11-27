@@ -7,7 +7,7 @@
 
 	function linkconst(){
 		if(name !== '' && /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-			let linkwpp = `https://wa.me/5581996765808?text=Olá!+Me+chamo+${name}+e+queria+saber+mais+sobre:+${opwpp}.+Para+o+dia:+${data}&source&data&app_absent`;
+			let linkwpp = `https://wa.me/5581987702248?text=Olá!+Me+chamo+${name}+e+queria+saber+mais+sobre:+${opwpp}.+Para+o+dia:+${data}&source&data&app_absent`;
 			window.open(linkwpp, "_blank");
 		}
 		else if(name !== ''){
