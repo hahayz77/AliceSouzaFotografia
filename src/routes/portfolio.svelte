@@ -1,7 +1,6 @@
 <script>
 	import Instagram from "../components/home/Instagram.svelte";
 	import ToContato from "../components/home/ToContato.svelte";
-	import { fade } from 'svelte/transition';
 	import ToBehance from "../components/portfolio/ToBehance.svelte";
 
 	let imgs = [
@@ -48,12 +47,9 @@
 	<div class="container jumbotron">
 		<div class="row">
 			{#each imgs as { id, src, name, link, descrição, titulo, hover, alt }, i}
-					<a href="{link}" class="col-md-6 px-3 mb-4 overflow-hidden" on:mouseenter={() => {hover = !hover}} on:mouseleave={() => {hover = !hover}} on:click={modalclick(imgs[i])} data-toggle="modal" data-target=".bd-example-modal-xl">
+					<a href="{link}" class="col-md-6 px-3 mb-4 overflow-hidden" on:mouseenter={() => {hover = true}} on:mouseleave={() => {hover = false}} on:click={modalclick(imgs[i])} data-toggle="modal" data-target=".bd-example-modal-xl">
 						<img src="{src}" alt="{alt}">
-						{#if hover == false}
-						<div class="d-none"></div>
-						{:else}
-						<div class="descr px-3" in:fade="{{ y: 200, duration: 600 }}" out:fade="{{ y: 200, duration: 200 }}">
+						<div class="descr px-3">
 							<div class="back d-flex align-items-center">
 								<div class="col">
 									<h2>{titulo}</h2>
@@ -61,28 +57,26 @@
 								</div>
 							</div>
 						</div>
-						{/if}
 					</a>		
 			{/each}
 		</div>
 	</div>
-
 </main>
 
 <!-- Extra large modal -->
 	<div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
-	<div class="modal-dialog modal-xl" role="document">
-		<div class="modal-header">
-			<h2 class="modal-title" id="exampleModalCenterTitle">{modalTittle}</h2>
-			<!-- <input type="button" value="x" class="text-right" data-dismiss="modal"> -->
-			<a href="/portfolio" class="text-right" data-dismiss="modal"><span>x</span></a>
-      	</div>
-		<div class="modal-content">
-		{#each modal as modals, i}
-		<img src="{modals}" alt="imagem{i}">
-		{/each}
+		<div class="modal-dialog modal-xl" role="document">
+			<div class="modal-header">
+				<h2 class="modal-title" id="exampleModalCenterTitle">{modalTittle}</h2>
+				<!-- <input type="button" value="x" class="text-right" data-dismiss="modal"> -->
+				<a href="/portfolio" class="text-right" data-dismiss="modal"><span>x</span></a>
+			</div>
+			<div class="modal-content">
+				{#each modal as modals, i}
+				<img src="{modals}" alt="imagem{i}">
+				{/each}
+			</div>
 		</div>
-	</div>
 	</div>
 
 <ToBehance />
@@ -103,7 +97,12 @@
 		bottom: 0;
 		left: 0;
 		width: 100%;
+		height: 30%;
+		transition: ease-in-out 0.3s;
+	}
+	.descr:hover{
 		height: 100%;
+		transition: ease-in-out 0.7s;
 	}
 	.back{
 		position: relative;
@@ -176,6 +175,20 @@
 		}
 		span{
 			font-size: 2.3rem;
+		}
+		.descr{
+			overflow: hidden;
+		}
+		.descr h2{
+			font-size: 1.6rem;
+			margin-top: 1rem;
+			margin-bottom: 0;
+			line-height: 0.5;
+		}
+		.descr p{
+			margin-top: 0.2rem;
+			margin-bottom: 0;
+			font-size: 1rem;	
 		}
 	}
 

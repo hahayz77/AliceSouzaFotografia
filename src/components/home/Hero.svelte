@@ -8,16 +8,9 @@
             <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="7"></li>
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img/hero/hero0.jpg" class="w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Festas Infantis</h5>
-                </div>
-            </div>
-            <div class="carousel-item">
                 <img src="img/hero/hero1.jpg" class="w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Festas Infantis</h5>

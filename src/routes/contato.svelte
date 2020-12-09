@@ -110,7 +110,7 @@
 						<div class="card-header" id="headingOne">
 						<h5 class="mb-0">
 							<button class="btn w-100 text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-							How do I order?
+							Faz trabalhos fora de Recife?
 							<i class="ni ni-bold-down float-right"></i>
 
 							</button>
@@ -119,7 +119,7 @@
 
 						<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
 						<div class="card-body opacity-8">
-							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							Sim, mas com todas as taxas de locomoção, estadia e tempo de deslocamento como adicionais aos valores convencionais.
 						</div>
 						</div>
 					</div>
@@ -127,7 +127,7 @@
 						<div class="card-header" id="headingTwo">
 						<h5 class="mb-0">
 							<button class="btn w-100 text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-							How can i make the payment?
+							Tem ponto físico de atendimento?
 							<i class="ni ni-bold-down float-right"></i>
 
 							</button>
@@ -135,7 +135,10 @@
 						</div>
 						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
 						<div class="card-body opacity-8">
-							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							Ainda não.<br> 
+							Esse é um projeto futuro que já comecei a programar. Lembrando que espaço físico de atendimento é para recebê-los, apresentar meu portfólio e desenvolver as reuniões, não será um espaço para fotografar. 
+							<br>Resumindo, escritório de edição e atendimento aos clientes.
+
 						</div>
 						</div>
 					</div>
@@ -143,7 +146,7 @@
 						<div class="card-header" id="headingThree">
 						<h5 class="mb-0">
 							<button class="btn w-100 text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-							How much time does it take to receive the order?
+							Trabalha com estúdio, fornece figurino?
 							<i class="ni ni-bold-down float-right"></i>
 
 							</button>
@@ -151,7 +154,8 @@
 						</div>
 						<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
 						<div class="card-body opacity-8">
-							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							Não, nenhum dos dois. <br>
+							Preso pelas características dos meus clientes e gosto da leveza e peculiaridade de cada um. Meu estilo é em ambientes externos  ou domiciliares.
 						</div>
 						</div>
 					</div>
@@ -159,7 +163,7 @@
 						<div class="card-header" id="headingFour">
 						<h5 class="mb-0">
 							<button class="btn w-100 text-left" type="button" data-toggle="collapse" data-target="#collapseFour" aria-controls="collapseFour">
-							Can I resell the products?
+							Fotolivro, faz a parte?
 							<i class="ni ni-bold-down float-right"></i>
 							</button>
 						</h5>
@@ -167,7 +171,7 @@
 
 						<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
 						<div class="card-body opacity-8">
-							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							Sim! Desenvolvo o layout e  capa na temática escolhida Por você!
 						</div>
 						</div>
 					</div>
@@ -175,7 +179,7 @@
 						<div class="card-header" id="headingFifth">
 						<h5 class="mb-0">
 							<button class="btn w-100 text-left" type="button" data-toggle="collapse" data-target="#collapseFifth" aria-controls="collapseFifth">
-							Where do I find the shipping details?
+							Faz newborn ?
 							<i class="ni ni-bold-down float-right"></i>
 
 							</button>
@@ -184,7 +188,9 @@
 
 						<div id="collapseFifth" class="collapse" aria-labelledby="headingFifth" data-parent="#accordionExample">
 						<div class="card-body opacity-8">
-							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							Não! trabalho com crianças de 4 meses em diante.<br>
+							Deixando claro que todos os meus projetos com crianças são com a pegada mais natural, dentro dos cenários diário em que eles vivem como: Brinquedos, o próprio quarto , comida predileta…
+							<br>Gosto de retratar com fidelidade suas memórias.
 						</div>
 						</div>
 					</div>

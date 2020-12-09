@@ -2,7 +2,7 @@
     <section class="container jumbotron">
         <h3 class="text-center">Gostaria de Saber Mais Sobre o Meu Trabalho?</h3>
         <p class="text-center">Clique no link abaixo e vamos fazer os planos para o seu momento inesquecível</p>
-        <a href="/contato"><button class="d-block mx-auto btn px-5 py-2"><span>Quero Saber Mais</span></button></a>
+        <a href="contato"><button class="d-block mx-auto btn px-5 py-2"><span>Quero Saber Mais</span></button></a>
     </section>
 </main>
 

@@ -22,7 +22,7 @@
 	[aria-current]::after {
 		position: absolute;
 		content: '';
-		width: 100%;
+		width: 80%;
 		height: 1px;
 		background-color: rgb(247, 187, 202);
 		display: block;
