@@ -32,6 +32,14 @@
     img{
         border-radius: 50%;
         border: 2px solid rgba(247, 187, 202, 0.9);
-        max-height: 300px;
+        max-height: 240px;
+    }
+    @media (max-width: 575.98px) {
+        h2{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 15px;
+        }
     }
 </style>

@@ -25,4 +25,19 @@
         text-decoration: none;
     }
 
+
+    @media (max-width: 575.98px) {
+        h3{
+            font-size: 2rem;
+        }
+        p{
+            margin-top: 1.5rem;
+            margin-bottom: 2rem;
+            font-size: 15px;
+        }
+        span{
+            font-size: 16px;
+        }
+    }
+
 </style>
