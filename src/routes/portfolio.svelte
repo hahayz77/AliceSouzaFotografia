@@ -199,6 +199,11 @@
 			font-size: 1rem;	
 		}
 	}
+	@media (min-width: 767.98px) {
+        .modal-dialog{
+            max-width: 85%;
+        }
+    }
 
 
 </style>

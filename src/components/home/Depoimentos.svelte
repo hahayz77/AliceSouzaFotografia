@@ -2,7 +2,8 @@
 import Depos from "../depoimentos/Depos.svelte";
 
 let depos = [
-    {id: 1, nome: "Alice2", src: "img/pp.jpg", titulo: "depo 1"},
+	{id: 1, nome: "Alice2", src: "img/pp.jpg", titulo: "depo 1",
+	depo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."},
     {id: 2, nome: "Alice2", src: "img/pp.jpg", titulo: "depo 2"},
     {id: 3, nome: "Alice3", src: "img/pp.jpg", titulo: "depo 3"},
     {id: 4, nome: "Alice4", src: "img/pp.jpg", titulo: "depo 4"},
@@ -38,7 +39,7 @@ let deposActive = [];
 			<a href="/portfolio" class="text-right" data-dismiss="modal"><span>x</span></a>
       	</div>
         <div class="modal-content">
-        <Depos titulo={deposActive.titulo} depo={deposActive.id} />
+        <Depos titulo={deposActive.titulo} depo={deposActive.depo} />
         </div>
 	</div>
 	</div>
@@ -102,4 +103,25 @@ let deposActive = [];
 		transform: scale(1.05);
 		transition: .4s all;
 	}
-</style>
+
+	@media (max-width: 575.98px) {
+		.modal-header span{
+			font-size: 2.5rem;
+		}
+		.modal-header h2{
+			font-size: 1.8rem;
+		}
+		.modal-dialog{
+			padding: 0;
+		}
+		.img{
+			margin: 0.5rem 0px;
+			max-width: 80%;
+		}
+	}
+	@media (min-width: 767.98px) {
+        .modal-dialog{
+            max-width: 85%;
+        }
+    }
+</style>	
