@@ -35,7 +35,6 @@ let deposActive = [];
 	<div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
 	<div class="modal-dialog modal-xl" role="document">
 		<div class="modal-header">
-			<h2 class="modal-title" id="exampleModalCenterTitle">{deposActive.nome}</h2>
 			<a href="/portfolio" class="text-right" data-dismiss="modal"><span>x</span></a>
       	</div>
         <div class="modal-content">
@@ -50,7 +49,7 @@ let deposActive = [];
     .img{
         max-width: 70%;
         border-radius: 50%;
-        border: 2px solid rgba(247, 187, 202, 0.829);
+        border: 2px solid rgb(63, 63, 63);
         margin: 1rem auto;
         padding: 0;
         transition: all 1200ms;
@@ -60,7 +59,7 @@ let deposActive = [];
         transition: all 600ms;
     }
     section{
-        background-color: rgba(243, 211, 219, 0.8);
+        background-color: rgb(255, 255, 255, 0.8);
     }
 	.modal{
 		padding: 0;
@@ -78,14 +77,11 @@ let deposActive = [];
 		position: sticky;
 		top: 0;
 		z-index: 1;
-		background: rgba(243, 211, 219);
+		background: white;
 		border-top-left-radius: 0;
 		border-top-right-radius: 0;
-	}
-	.modal h2{
-		color: rgb(92, 49, 84);
-		font-size: 2rem;
-		vertical-align: middle;
+		border: 0px;
+		padding: 0px;
 	}
 	.modal-content{
 		border: none;
@@ -94,7 +90,6 @@ let deposActive = [];
 		position: absolute;
 		top: 0; right: 1rem;
 		transition: 0.2s all;
-		color: rgb(92, 49, 84);
 		font-size: 3rem;
 		font-weight: 700;
 		opacity: .8;
@@ -107,9 +102,6 @@ let deposActive = [];
 	@media (max-width: 575.98px) {
 		.modal-header span{
 			font-size: 2.5rem;
-		}
-		.modal-header h2{
-			font-size: 1.8rem;
 		}
 		.modal-dialog{
 			padding: 0;

@@ -5,9 +5,12 @@
 .container-fluid{
     padding: 0;
 }
-.navbar, h1, h2, h3, h4, h5 {
-    font-family: 'Satisfy', cursive;
-    color: rgb(92, 49, 84);
+.navbar{
+    font-family: 'Cinzel', serif;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Quicksand', cursive;
+    color: rgb(63, 63, 63);
 
 }
 h1{
@@ -18,7 +21,7 @@ h2{
     font-size: 3rem;
 }
 i, a, p, span, .text-primary {
-    color: rgb(92, 49, 84);
+    color: rgb(63, 63, 63);
 }
 
 p, span{

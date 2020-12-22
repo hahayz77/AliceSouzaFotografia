@@ -56,7 +56,6 @@
 							<div class="back d-flex align-items-center">
 								<div class="col">
 									<h2>{titulo}</h2>
-									<p>{descrição}</p>
 								</div>
 							</div>
 						</div>
@@ -70,7 +69,6 @@
 	<div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
 		<div class="modal-dialog modal-xl" role="document">
 			<div class="modal-header">
-				<h2 class="modal-title" id="exampleModalCenterTitle">{modalTittle}</h2>
 				<!-- <input type="button" value="x" class="text-right" data-dismiss="modal"> -->
 				<a href="/portfolio" class="text-right" data-dismiss="modal"><span>x</span></a>
 			</div>
@@ -106,6 +104,7 @@
 		font-size: 2.5rem;
 		margin-top: 1rem;
 		line-height: 1;
+		color: white;
 	}
 	.descr:hover{
 		height: 100%;
@@ -116,7 +115,7 @@
 		bottom: 0;
 		height: 100%;
 		width: 100%;
-		background: rgba(243, 211, 219, 0.9);
+		background: rgb(63, 63, 63, 0.3);
 		text-align: center;
 	}
 	.modal img{
@@ -140,14 +139,9 @@
 		top: 0;
 		padding: 0.8rem;
 		z-index: 1;
-		background: rgba(243, 211, 219);
 		border-top-left-radius: 0;
 		border-top-right-radius: 0;
-	}
-	.modal h2{
-		color: rgb(92, 49, 84);
-		font-size: 2rem;
-		vertical-align: middle;
+		padding: 0px;
 	}
 	.modal-content{
 		border: none;
@@ -156,7 +150,6 @@
 		position: absolute;
 		top: 0; right: 1rem;
 		transition: 0.2s all;
-		color: rgb(92, 49, 84);
 		font-size: 2.5rem;
 		font-weight: 700;
 		opacity: .8;
@@ -170,9 +163,6 @@
 @media (max-width: 575.98px) { 
 		h2{
 			font-size: 2rem;
-		}
-		.modal h2{
-			font-size: 1.5rem;
 		}
 		img{
 			height: 200px;
@@ -192,11 +182,6 @@
 			margin-top: 1rem;
 			margin-bottom: 0;
 			line-height: 0.5;
-		}
-		.descr p{
-			margin-top: 0.2rem;
-			margin-bottom: 0;
-			font-size: 1rem;	
 		}
 	}
 	@media (min-width: 767.98px) {

@@ -9,16 +9,16 @@
 <style>
     button{
         border-radius: 30px;
-        background: rgba(255, 189, 205, 0.8);
+        background: rgb(63, 63, 63, 0.1);
         transition: all 1000ms;
     }
     button:hover{
-        background: rgba(255, 189, 205, 1);
+        background: rgb(63, 63, 63, 0.3);
         transform: scale(1.05);
         transition: all 600ms;
     }
     h3{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     span{
         font-size: 1.5rem;
@@ -28,7 +28,7 @@
 
     @media (max-width: 575.98px) {
         h3{
-            font-size: 2rem;
+            font-size: 1.8rem;
         }
         p{
             margin-top: 1.5rem;

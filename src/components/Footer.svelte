@@ -37,7 +37,7 @@ function wppLink(){
         margin: auto 1rem;
     }
     main{
-        background-color: rgba(243, 211, 219, 0.8);
+        background-color: rgb(255, 255, 255, 0.8);
     }
     @media (max-width: 575.98px) { 
 		.fa-3x{

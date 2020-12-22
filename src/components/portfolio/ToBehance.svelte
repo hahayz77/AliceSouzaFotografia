@@ -5,12 +5,12 @@
 <style>
     button{
         border-radius: 60px;
-        background: rgba(255, 189, 205, 0.8);
+        background: rgb(63, 63, 63, 0.1);
         padding: .8rem 2rem;
         transition: all 1000ms;
     }
     button:hover{
-        background: rgba(255, 189, 205, 1);
+        background: rgb(63, 63, 63, 0.4);
         transform: scale(1.05);
         transition: all 600ms;
     }

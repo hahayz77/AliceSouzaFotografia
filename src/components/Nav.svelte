@@ -29,10 +29,12 @@
 		content: '';
 		width: 80%;
 		height: 1px;
-		background-color: rgb(247, 187, 202);
+		background-color: rgb(63, 63, 63);
 		display: block;
 	}
-
+	a{
+		font-size: 1.5rem;
+	}
 	nav{
 		min-height: 12vh;
 	}
@@ -48,7 +50,7 @@
 		max-width: 100%;
 	}
 	.bg-trans{
-		background-color: rgba(255, 255, 255, 0.8);
+		background-color: rgba(255, 255, 255, 0.9);
 	}
 
 	@media (max-width: 768px) { 

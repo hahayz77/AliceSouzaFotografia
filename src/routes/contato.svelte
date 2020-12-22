@@ -205,7 +205,7 @@
 
 <style>
 	.card{
-		background: rgba(243, 211, 219);
+		background: rgba(0, 0, 0, 0.1);
 	}
 	input[type="radio"]{
     	visibility:hidden;
@@ -219,7 +219,7 @@
 	}
 
 	input[type="radio"]:checked+label {
-		background: rgba(243, 211, 219);
+		background: rgba(0, 0, 0, 0.1);
 	}
 	h5{
 		font-size: 1rem;
@@ -237,11 +237,11 @@
 	.btn-spec{
 		font-size: 20px;
         border-radius: 30px;
-        background: rgba(255, 189, 205, 0.8);
+        background: rgb(63, 63, 63, 0.1);
         transition: all 1000ms;
     }
     .btn-spec:hover{
-        background: rgba(255, 189, 205, 1);
+        background: rgb(63, 63, 63, 0.3);
         transform: scale(1.05);
         transition: all 600ms;
     }

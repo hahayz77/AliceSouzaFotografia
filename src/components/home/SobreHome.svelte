@@ -31,7 +31,7 @@
 <style>
     img{
         border-radius: 50%;
-        border: 2px solid rgba(247, 187, 202, 0.9);
+        border: 2px solid rgb(63, 63, 63);
         max-height: 240px;
     }
     @media (max-width: 575.98px) {
