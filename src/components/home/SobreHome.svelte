@@ -4,11 +4,10 @@
             <div class="col-12">
                 <img class="d-block mx-auto" src="img/home/homeperfil.jpg" alt="perfil">
             </div>
-            <h2 class="col-12 my-3 text-center">Quem Sou Eu</h2>
+            <h2 class="col-12 my-3 text-center">Oi eu sou Alice...</h2>
             <div class="col-12 justify-content-center">
                 <p class="col-lg-8 col-md-9 col-sm-10 my-3 mx-auto text-justify">
-                Me chamo Alice de Souza Barbosa Praxedes e sou fotógrafa profissional desde 2016.
-                Iniciei na fotografia de forma lúdica e anos mais tarde me aprofundei na profissão.
+                Iniciei na fotografia em 2016 de forma lúdica e anos mais tarde me aprofundei na profissão.
                 Hoje sou mamãe do Davi, esposa do Dan, dona de casa e fotógrafa. <br>
                 Atualmente tenho como carro-chefe do meu trabalho eventos infantis e culturais.
                 Trabalho também com ensaios femininos e familiares, sendo eles os meus xodós nas horas vagas, livre de eventos.<br>

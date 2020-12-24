@@ -2,15 +2,15 @@
 import Depos from "../depoimentos/Depos.svelte";
 
 let depos = [
-	{id: 1, nome: "Alice2", src: "img/pp.jpg", titulo: "depo 1",
+	{id: 1, src: "img/depoimentos/diogo.jpg", titulo: "depo 1",
 	depo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."},
-    {id: 2, nome: "Alice2", src: "img/pp.jpg", titulo: "depo 2"},
-    {id: 3, nome: "Alice3", src: "img/pp.jpg", titulo: "depo 3"},
-    {id: 4, nome: "Alice4", src: "img/pp.jpg", titulo: "depo 4"},
-    {id: 5, nome: "Alice5", src: "img/pp.jpg", titulo: "depo 5"},
-    {id: 6, nome: "Alice6", src: "img/pp.jpg", titulo: "depo 6"},
-    {id: 7, nome: "Alice7", src: "img/pp.jpg", titulo: "depo 7"},
-    {id: 8, nome: "Alice8", src: "img/pp.jpg", titulo: "depo 8"}
+    {id: 2, src: "img/depoimentos/gabriela_duarte.jpg", titulo: "depo 2"},
+    {id: 3, src: "img/depoimentos/malu.jpg", titulo: "depo 3"},
+    {id: 4, src: "img/depoimentos/maria_eduarda.jpg", titulo: "depo 4"},
+    {id: 5, src: "img/depoimentos/marisales.jpg", titulo: "depo 5"},
+    {id: 6, src: "img/depoimentos/nanda_sial.jpg", titulo: "depo 6"},
+    {id: 7, src: "img/depoimentos/renatinha.jpg", titulo: "depo 7"},
+    {id: 8, src: "img/depoimentos/viviane.jpg", titulo: "depo 8"}
 ];
 
 let deposActive = [];
@@ -38,7 +38,7 @@ let deposActive = [];
 			<a href="/portfolio" class="text-right" data-dismiss="modal"><span>x</span></a>
       	</div>
         <div class="modal-content">
-        <Depos titulo={deposActive.titulo} depo={deposActive.depo} />
+        <Depos titulo={deposActive.titulo} depo={deposActive.depo} src={deposActive.src}/>
         </div>
 	</div>
 	</div>

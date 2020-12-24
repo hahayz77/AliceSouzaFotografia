@@ -27,7 +27,7 @@ function wppLink(){
             <p class="text-center"><a href="/">Home</a> | <a href="/sobre">Sobre</a> | <a href="/portfolio">Portfólio</a> | <a href="/contato">Contato</a>
         </div>
         <div class="row d-flex justify-content-center">
-            <p class="text-center">Todos os Direitos Reservados à Alice De Souza Fotografia</p>
+            <p class="text-center">Todos os Direitos Reservados a Alice De Souza Fotografia</p>
         </div>
     </footer>
 </main>

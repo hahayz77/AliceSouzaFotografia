@@ -55,7 +55,7 @@
 						<div class="descr px-3">
 							<div class="back d-flex align-items-center">
 								<div class="col">
-									<h2>{titulo}</h2>
+									<h2 class="titulo">{titulo}</h2>
 								</div>
 							</div>
 						</div>
@@ -158,7 +158,9 @@
 		transform: scale(1.05);
 		transition: .4s all;
 	}
-
+	.titulo{
+		text-shadow: 1px 1px 20px #000;
+	}
 
 @media (max-width: 575.98px) { 
 		h2{

@@ -53,7 +53,7 @@
 		background-color: rgba(255, 255, 255, 0.9);
 	}
 
-	@media (max-width: 768px) { 
+	@media (max-width: 991.98px) { 
 		#extraBrand{
 			position: absolute;
 			top: 0;

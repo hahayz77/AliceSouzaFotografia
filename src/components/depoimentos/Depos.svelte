@@ -1,6 +1,7 @@
 <script>
 export let titulo = '';
 export let depo = '';
+export let src = '';
 
 </script>
 
@@ -8,7 +9,7 @@ export let depo = '';
     <section class="container jumbotron">
         <div class="row">
             <div class="col-12">
-                <img class="d-block mx-auto" src="img/pp.jpg" alt="perfil">
+                <img class="d-block mx-auto" src={src} alt="perfil">
             </div>
             <span id="titulo" class="col-12 my-3 text-center">{titulo}</span>
             <div class="col-12 justify-content-center">
