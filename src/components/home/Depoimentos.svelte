@@ -2,15 +2,22 @@
 import Depos from "../depoimentos/Depos.svelte";
 
 let depos = [
-	{id: 1, src: "img/depoimentos/diogo.jpg", titulo: "depo 1",
-	depo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."},
-    {id: 2, src: "img/depoimentos/gabriela_duarte.jpg", titulo: "depo 2"},
-    {id: 3, src: "img/depoimentos/malu.jpg", titulo: "depo 3"},
-    {id: 4, src: "img/depoimentos/maria_eduarda.jpg", titulo: "depo 4"},
-    {id: 5, src: "img/depoimentos/marisales.jpg", titulo: "depo 5"},
-    {id: 6, src: "img/depoimentos/nanda_sial.jpg", titulo: "depo 6"},
-    {id: 7, src: "img/depoimentos/renatinha.jpg", titulo: "depo 7"},
-    {id: 8, src: "img/depoimentos/viviane.jpg", titulo: "depo 8"}
+	{id: 1, src: "img/depoimentos/diogo.jpg", titulo: "Diogo",
+		depo: "Você é mais do que uma fotógrafa... És uma artista! Estamos simplesmente encantados com o resultado surpreendete! Muito Obrigado."},
+    {id: 2, src: "img/depoimentos/gabriela_duarte.jpg", titulo: "Gabriela Duarte",
+		depo: "Parabéns pela sensibilidade de captar momentos tão simples e ao mesmo tempo tão preciosos, @alicedesouzafotografia!"},
+	{id: 3, src: "img/depoimentos/malu.jpg", titulo: "Malu", 
+		depo:"Alice meu amor, boa noite! Desculpa o horário mas é que recebi as fotos hoje e só tive tempo de olhar agora. Elas estão as coisas mais lindas do mundo! Superaram totalmente minha expectativa. Cada detalhe e cada sorriso deixaram o ensaio mais lindo ainda. Obrigada pela atenção e dedicação. Você realmente tem esse dom e que dom maravilhoso. Estou apaixonada pelas fotos!"},
+	{id: 4, src: "img/depoimentos/maria_eduarda.jpg", titulo: "Maria Eduarda",
+		depo: "Escolhi o trabalho de Alice, para registrar importantes momentos da minha família e crescimento da minha filha, porque ela tem uma sensibilidade fora do comum. Sua fotografia é honestamente linda e, casa expressão capturada, remete ao sentimento que permeou o momento da foto. Mais do que a beleza técnica fotográfica, seu conteúdo é artístico e impregnado de verdade."},
+	{id: 5, src: "img/depoimentos/marisales.jpg", titulo: "Mari Sales",
+		depo:"Emocionada de verdade. Seu olhar é lindo! Muito obrigada."},
+	{id: 6, src: "img/depoimentos/nanda_sial.jpg", titulo: "Fernanda Sial",
+		depo:"Não tinha como pensar em outra pessoa para nos fotografar no dia do casamento! A verdade é essa. No ensaio pré casamento sugerimos um lugar que significava muito para nós, mas que seria necessário fazer trilha e acampar... Alice não pensou duas vezes e embarcou conosco mesmo nunca tendo acampado na vida! O resultado foram fotos que expressam sentimentos por si só!"},
+    {id: 7, src: "img/depoimentos/renatinha.jpg", titulo: "Renatinha",
+		depo: "Alice conseguiu capturar minha alma. Foi uma injeção de auto estima para mim, o resultado foi nítido nas fotos. Um ensaio que ficou tão lindo parecendo uma poesia. Já fiz vários tipos de ensaio com ela, e SEMPRE ela consegue me surpreender, com seu olhar, edição, tudo! Alice é uma artista.❤️"},
+	{id: 8, src: "img/depoimentos/viviane.jpg", titulo: "Viviane", 
+		depo:"Alice, não me canso de te parabenizar pelo excelente trabalho. Incrível como as fotos por si, retratam toda a emoção que lá sentimos!!! Resultado de quem faz com amor! Tu és impar! "}
 ];
 
 let deposActive = [];

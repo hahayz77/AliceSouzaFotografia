@@ -1,5 +1,5 @@
 <main class="bg-white py-0 my-0">
-        <a href="/portfolio"><button class="d-block mx-auto btn"><span><i class="fa fa-2x fa-behance"></i><p>Ver Mais Albuns no Behance</p></span></button></a>
+        <a href="https://www.behance.net/alicephotographer" target="_blank"><button class="d-block mx-auto btn"><span><i class="fa fa-2x fa-behance"></i><p>Ver Mais Albuns no Behance</p></span></button></a>
 </main>
 
 <style>

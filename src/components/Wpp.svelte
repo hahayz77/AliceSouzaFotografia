@@ -3,11 +3,11 @@
 
 function wppLink(){
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-    linkwpp = 'https://wa.me/5581987702248?text=Olá!+Gostaria+de+saber+mais+sobre+os+pacotes!';
+    linkwpp = 'https://wa.me/5581987702248?text=Olá!+Gostaria+de+saber+mais+sobre+os+seu+serviço!';
     window.open(linkwpp, "_blank");
   }
   else{
-    linkwpp = 'https://web.whatsapp.com/send?phone=5581987702248&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+os+pacotes%21&source&data&app_absent';
+    linkwpp = 'https://web.whatsapp.com/send?phone=5581987702248&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+os+seus+serviços%21&source&data&app_absent';
     window.open(linkwpp, "_blank");
     }
 }

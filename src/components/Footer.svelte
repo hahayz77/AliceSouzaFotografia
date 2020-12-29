@@ -18,10 +18,10 @@ function wppLink(){
 <main class="overflow-hide">
     <footer class="container jumbotron">
         <div class="row d-flex justify-content-center my-3">
-                <a href={"#"} class="instagram"><i class="fa fa-3x fa-instagram"></i></a>
-                <a href={"#"} class="linkedin"><i class="fa fa-3x fa-pinterest"></i></a>                
-                <a href={"#"} class="linkedin"><i class="fa fa-3x fa-behance"></i></a>
-                <a href={"#"} class="whatsapp" on:click={wppLink}><i class="fa fa-3x fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/alicesouzafotografia/" target="_blank" class="instagram"><i class="fa fa-3x fa-instagram"></i></a>
+                <!-- <a href={"#"} class="pinterest"><i class="fa fa-3x fa-pinterest"></i></a>                 -->
+                <a href="https://www.behance.net/alicephotographer" target="_blank" class="linkedin"><i class="fa fa-3x fa-behance"></i></a>
+                <a href={"#whatsapp"} class="whatsapp" on:click={wppLink}><i class="fa fa-3x fa-whatsapp"></i></a>
         </div>
         <div class="row d-flex justify-content-center">
             <p class="text-center"><a href="/">Home</a> | <a href="/sobre">Sobre</a> | <a href="/portfolio">Portfólio</a> | <a href="/contato">Contato</a>
