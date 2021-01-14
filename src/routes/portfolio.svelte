@@ -4,11 +4,12 @@
 	import ToBehance from "../components/portfolio/ToBehance.svelte";
 
 	let imgs = [
-		{id: 1, src: "img/portifolio/infantil/15.jpg", link: "/portfolio", alt: "Infaltis", descrição: "Evenventos Infantis", titulo: "Infantis", hover: false, modal: [
+		{id: 1, src: "img/portifolio/infantil/01.jpg", link: "/portfolio", alt: "Infaltis", descrição: "Evenventos Infantis", titulo: "Infantis", hover: false, modal: [
 			"img/portifolio/infantil/01.jpg", "img/portifolio/infantil/02.jpg", "img/portifolio/infantil/03.jpg", "img/portifolio/infantil/04.jpg", 
 			"img/portifolio/infantil/05.jpg", "img/portifolio/infantil/06.jpg", "img/portifolio/infantil/07.jpg", "img/portifolio/infantil/08.jpg", 
 			"img/portifolio/infantil/09.jpg", "img/portifolio/infantil/10.jpg", "img/portifolio/infantil/11.jpg", "img/portifolio/infantil/12.jpg",
-			"img/portifolio/infantil/13.jpg", "img/portifolio/infantil/14.jpg", "img/portifolio/infantil/15.jpg"]},
+			"img/portifolio/infantil/13.jpg", "img/portifolio/infantil/14.jpg", "img/portifolio/infantil/15.jpg", "img/portifolio/infantil/16.jpg",
+			"img/portifolio/infantil/17.jpg", "img/portifolio/infantil/18.jpg", "img/portifolio/infantil/19.jpg", "img/portifolio/infantil/20.jpg"]},
 		{id: 2, src: "img/portifolio/feminino/07.jpg", link: "/portfolio", alt: "Femininos", descrição: "Ensaios Femininos", titulo: "Femininos", hover: false, modal: [
 			"img/portifolio/feminino/01.jpg", "img/portifolio/feminino/02.jpg", "img/portifolio/feminino/03.jpg", "img/portifolio/feminino/04.jpg",
 			"img/portifolio/feminino/05.jpg", "img/portifolio/feminino/06.jpg", "img/portifolio/feminino/07.jpg", "img/portifolio/feminino/08.jpg",
@@ -23,7 +24,10 @@
 			"img/portifolio/wedding/09.jpg", "img/portifolio/wedding/10.jpg", "img/portifolio/wedding/11.jpg"]},
 		{id: 5, src: "img/portifolio/culturais/04.jpg", link: "/portfolio", alt: "Espetáculos", descrição: "Eventos Culturais", titulo: "Espetáculos", hover: false, modal: [
 			"img/portifolio/culturais/01.jpg", "img/portifolio/culturais/02.jpg", "img/portifolio/culturais/03.jpg", "img/portifolio/culturais/04.jpg",
-			"img/portifolio/culturais/05.jpg", "img/portifolio/culturais/06.jpg", "img/portifolio/culturais/07.jpg"]},
+			"img/portifolio/culturais/05.jpg", "img/portifolio/culturais/06.jpg", "img/portifolio/culturais/07.jpg", "img/portifolio/culturais/08.jpg",
+			"img/portifolio/culturais/09.jpg", "img/portifolio/culturais/10.jpg", "img/portifolio/culturais/11.jpg", "img/portifolio/culturais/12.jpg",
+			"img/portifolio/culturais/13.jpg", "img/portifolio/culturais/14.jpg", "img/portifolio/culturais/15.jpg", "img/portifolio/culturais/06.jpg",
+			"img/portifolio/culturais/17.jpg", "img/portifolio/culturais/18.jpg", "img/portifolio/culturais/19.jpg", "img/portifolio/culturais/20.jpg"]},
 		{id: 6, src: "img/portifolio/sweethome/01.jpg", link: "/portfolio", alt: "Sweet Home", descrição: "Sweet Home", titulo: "Sweet Home", hover: false, modal: [
 			"img/portifolio/sweethome/01.jpg", "img/portifolio/sweethome/02.jpg", "img/portifolio/sweethome/03.jpg", "img/portifolio/sweethome/04.jpg",
 			"img/portifolio/sweethome/05.jpg", "img/portifolio/sweethome/06.jpg", "img/portifolio/sweethome/07.jpg", "img/portifolio/sweethome/08.jpg",
@@ -145,6 +149,9 @@
 	}
 	.modal-content{
 		border: none;
+	}
+	.modal span{
+		text-shadow: 0px 1px 4px #fff;
 	}
 	span{
 		position: absolute;

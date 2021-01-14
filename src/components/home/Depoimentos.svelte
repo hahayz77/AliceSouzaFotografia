@@ -93,6 +93,10 @@ let deposActive = [];
 	.modal-content{
 		border: none;
 	}
+	.modal span{
+		font-size: 2.5rem;
+		text-shadow: 0px 1px 4px #fff;
+	}
 	span{
 		position: absolute;
 		top: 0; right: 1rem;

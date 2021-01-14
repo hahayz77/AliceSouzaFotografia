@@ -4,14 +4,15 @@
 	let select = '1';
 	let opwpp = [];
 	let op2 = '';
+	let job = '';
 
 	function linkconst(){
 		if(name !== '' && /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-			let linkwpp = `https://wa.me/5581987702248?text=Olá!+Me+chamo+${name}+e+queria+saber+mais+sobre:+${opwpp}.+Para+o+dia:+${data}&source&data&app_absent`;
+			let linkwpp = `https://wa.me/5581987702248?text=Olá!+Me+chamo+${name}+e+queria+saber+mais+sobre:+${opwpp}.+Para+o+dia:+${data}.+Descobri+seu+trabalho${job}&source&data&app_absent`;
 			window.open(linkwpp, "_blank");
 		}
 		else if(name !== ''){
-			let linkwpp = `https://web.whatsapp.com/send?phone=5581987702248&text=Olá!+Me+chamo+${name}+e+queria+saber+mais+sobre:+${opwpp}.+Para+o+dia:+${data}&source&data&app_absent`;
+			let linkwpp = `https://web.whatsapp.com/send?phone=5581987702248&text=Olá!+Me+chamo+${name}+e+queria+saber+mais+sobre:+${opwpp}.+Para+o+dia:+${data}.+Descobri+seu+trabalho${job}&source&data&app_absent`;
 			window.open(linkwpp, "_blank");
 		}
 		else{
@@ -31,7 +32,7 @@
 			<p class="text-center">Preencha os campos abaixo para entrar em contato comigo pelo Whatsapp ou E-mail.</p>
 			<div class="row text-center">
 				<div class="col mt-3 mb-0">
-					<ul class="mb-0 pl-0">
+					<ul class="mb-0 pl-0 select">
 						<input type="radio" bind:group={select} value="1" id="i1">
 						<label for="i1"><i class="fa fa-5x fa-whatsapp cselect card-header"></i></label>
 						<input type="radio" bind:group={select} value="2" id="i2">
@@ -57,15 +58,25 @@
 						<p>Gostaria de saber sobre mais sobre algo abaixo?</p>
 						<div class="row">
 							<div class="col-6">
-								<p><input type="checkbox" bind:group={opwpp} value="+Ensaio+Domiciliar"> Ensaio Domiciliar</p>
-								<p><input type="checkbox" bind:group={opwpp} value="+Eventos"> Eventos</p>
+								<p><input type="checkbox" bind:group={opwpp} value="+Ensaio+Feminino"> Ensaio Feminino</p>
+								<p><input type="checkbox" bind:group={opwpp} value="+Evento+Cultural"> Evento Cultural</p>
 								<p><input type="checkbox" bind:group={opwpp} value="+Festa+Infantil"> Festa Infantil</p>
-								<p><input type="checkbox" bind:group={opwpp} value="+Outros+Pacotes"> Outros Pacotes</p>
 							</div>
 							<div class="col-6">
-								<p><input type="checkbox" bind:group={opwpp} value="+Foto+Livro"> Foto Livro</p>
-								<p><input type="checkbox" bind:group={opwpp} value="+Pen+Drive"> Pen Drive</p>
-								<p><input type="checkbox" bind:group={opwpp} value="+Impressões"> Impressões</p>
+								<p><input type="checkbox" bind:group={opwpp} value="+Pre-Wedding"> Pre-Wedding</p>
+								<p><input type="checkbox" bind:group={opwpp} value="+Sweet+Home"> Sweet Home</p>
+								<p><input type="checkbox" bind:group={opwpp} value="+Outro+Pacote"> Outro Pacote</p>
+							</div>
+						</div>
+						<div class="col-lg-6 mx-auto">
+							<p>Como descobriu o meu trabalho?</p>
+							<div class="col-6">
+								<p><input type="radio" bind:group={job} value="+pelo+Instagram."> Instagram</p>
+								<p><input type="radio" bind:group={job} value="+por+indicação."> Indicação</p>
+							</div>
+							<div class="col-6">
+								<p><input type="radio" bind:group={job} value="+pelo+Facebook."> Facebook</p>
+								<p><input type="radio" bind:group={job} value="+por+outro+lugar."> Outros</p>
 							</div>
 						</div>
 					</div>
@@ -207,7 +218,7 @@
 	.card{
 		background: rgba(0, 0, 0, 0.1);
 	}
-	input[type="radio"]{
+	.select input[type="radio"]{
     	visibility:hidden;
 	}
 	label {

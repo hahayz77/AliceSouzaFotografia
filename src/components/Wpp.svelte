@@ -3,7 +3,7 @@
 
 function wppLink(){
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-    linkwpp = 'https://wa.me/5581987702248?text=Olá!+Gostaria+de+saber+mais+sobre+os+seu+serviço!';
+    linkwpp = 'https://wa.me/5581987702248?text=Olá!+Gostaria+de+saber+mais+sobre+os+seus+serviços!';
     window.open(linkwpp, "_blank");
   }
   else{
