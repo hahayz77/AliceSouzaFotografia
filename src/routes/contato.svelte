@@ -68,8 +68,8 @@
 								<p><input type="checkbox" bind:group={opwpp} value="+Outro+Pacote"> Outro Pacote</p>
 							</div>
 						</div>
-						<div class="col-lg-6 mx-auto">
-							<p>Como descobriu o meu trabalho?</p>
+						<p>Como descobriu o meu trabalho?</p>
+						<div class="row">							
 							<div class="col-6">
 								<p><input type="radio" bind:group={job} value="+pelo+Instagram."> Instagram</p>
 								<p><input type="radio" bind:group={job} value="+por+indicação."> Indicação</p>
