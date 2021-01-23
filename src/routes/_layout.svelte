@@ -18,6 +18,6 @@
 
 	<slot></slot>
 
-<Wpp />
+<Wpp {segment} />
 
 <Footer />

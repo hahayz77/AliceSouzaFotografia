@@ -86,7 +86,7 @@
 				</div>
 			</form>
 			{:else}
-			<form>
+			<form on:submit|preventDefault={()=>{alert("Esta opção ainda não está disponível. Entre em contato via whatsapp.")}}>
 				<div class="row card card-body">
 					<div class="col-lg-6 mx-auto">
 						<p class="col-form-label">Nome* <span>Campo obrigatório</span></p>
