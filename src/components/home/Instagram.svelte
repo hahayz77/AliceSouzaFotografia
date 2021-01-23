@@ -48,7 +48,7 @@ let linkinsta = "https://www.instagram.com/alicesouzafotografia/";
 
     @media (max-width: 575.98px) { 
 		h2{
-			font-size: 2rem;
+			font-size: 1.5rem;
 		}
 	}
 
