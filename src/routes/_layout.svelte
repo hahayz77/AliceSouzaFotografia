@@ -4,9 +4,6 @@
 	import Wpp from '../components/Wpp.svelte';
 
 	export let segment;
-
-	let y = 0;
- 	let ih, oh;
 </script>
 
 <style>

@@ -47,7 +47,7 @@
 </script>
 
 <svelte:head>
-	<title>portfolio</title>
+	<title>Portfolio</title>
 </svelte:head>
 
 <main class="bg-white">

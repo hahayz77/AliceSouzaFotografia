@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-	<title>Alice Souza</title>
+	<title>Alice Souza Fotografia</title>
 </svelte:head>
 
 <Hero />
