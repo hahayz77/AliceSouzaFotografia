@@ -17,13 +17,6 @@ let linkinsta = "https://www.instagram.com/alicesouzafotografia/";
             <h2 class="col-12 my-5 text-center"><a target="_blank" href="{linkinsta}">@alicesouzafotografia</a></h2>
         </div>
         <div class="row overflow-hidden d-flex flex-wrap">
-                <!-- <a target="_blank" href="{link}" class="col-lg-2 col-md-2 col-sm-4 col-6 px-0"><img src="img/pp.jpg" alt=""></a>
-                <a target="_blank" href="{link}" class="col-lg-2 col-md-2 col-sm-4 col-6 px-0"><img src="img/pp.jpg" alt=""></a>
-                <a target="_blank" href="{link}" class="col-lg-2 col-md-2 col-sm-4 col-6 px-0"><img src="img/pp.jpg" alt=""></a>
-                <a target="_blank" href="{link}" class="col-lg-2 col-md-2 col-sm-4 col-6 px-0"><img src="img/pp.jpg" alt=""></a>
-                <a target="_blank" href="{link}" class="col-lg-2 col-md-2 col-sm-4 col-6 px-0"><img src="img/pp.jpg" alt=""></a>
-                <a target="_blank" href="{link}" class="col-lg-2 col-md-2 col-sm-4 col-6 px-0"><img src="img/pp.jpg" alt=""></a>
-                 -->
                 {#each links as { src, link, alt }, i}
                         <a target="_blank" href="{link}" class="col-lg-2 col-md-2 col-sm-4 col-6 px-0"><img src="{src}" alt="{alt}"></a>
                 {/each}
