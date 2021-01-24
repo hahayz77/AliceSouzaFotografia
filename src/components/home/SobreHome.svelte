@@ -8,7 +8,7 @@
             <div class="col-12 justify-content-center">
                 <p class="col-lg-8 col-md-9 col-sm-10 my-3 mx-auto text-justify">
                 Mamãe do Davi, esposa do Dan e fotógrafa profissional desde 2016. <br>
-                Natural de Recife - PE, iniciei na fotografia de forma lúdica e anos mais tarde criei raízes na profissão por amar a leveza dos momentos reais e apreciar as memórias dos meus clientes.<br>
+                Natural de Recife-PE, iniciei na fotografia de forma lúdica e anos mais tarde criei raízes na profissão por amar a leveza dos momentos reais.<br>
                 Atualmente tenho como carro chefe eventos infantis e culturais. Além disso, também trabalho com ensaios femininos, familiares e casamentos.<br>
                 É uma honra que escolham a minha forma de ver o mundo para eternizar cada história e, sem dúvida, será um prazer imensurável eternizar a sua história também.<br>
                 </p>
