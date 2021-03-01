@@ -14,11 +14,14 @@ let linkinsta = "https://www.instagram.com/alicesouzafotografia/";
 <main class="bg-white">
     <section class="container-fluid overflow-hidden">
         <div class="row">
-            <h2 class="col-12 my-5 text-center"><a target="_blank" href="{linkinsta}">@alicesouzafotografia</a></h2>
+            <h2 class="col-12 my-5 text-center"><a target="_blank" href="{linkinsta}" 
+            data-aos="fade-up" data-aos-delay="100" data-aos-easing="ease-out">@alicesouzafotografia</a></h2>
         </div>
         <div class="row overflow-hidden d-flex flex-wrap">
                 {#each links as { src, link, alt }, i}
-                        <a target="_blank" href="{link}" class="col-lg-2 col-md-2 col-sm-4 col-6 px-0"><img src="{src}" alt="{alt}"></a>
+                        <a target="_blank" href="{link}" class="col-lg-2 col-md-2 col-sm-4 col-6 px-0">
+                        <img src="{src}" alt="{alt}" data-aos="fade-in" data-aos-delay="{i*150}" data-aos-easing="ease-out">
+                        </a>
                 {/each}
         </div>
 

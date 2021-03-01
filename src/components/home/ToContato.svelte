@@ -1,8 +1,8 @@
 <main class="bg-white py-5">
     <section class="container jumbotron">
-        <h3 class="text-center">Gostaria de Saber Mais Sobre o Meu Trabalho?</h3>
-        <p class="text-center">Clique no link abaixo e vamos fazer os planos para o seu momento inesquecível</p>
-        <a href="contato"><button class="d-block mx-auto btn px-5 py-2"><span>Quero Saber Mais</span></button></a>
+        <h3 class="text-center" data-aos="fade-up" data-aos-delay="100" data-aos-easing="ease-out">Gostaria de Saber Mais Sobre o Meu Trabalho?</h3>
+        <p class="text-center" data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-out">Clique no link abaixo e vamos fazer os planos para o seu momento inesquecível</p>
+        <a href="contato"><button class="d-block mx-auto btn px-5 py-2" data-aos="zoom-in" data-aos-delay="300" data-aos-easing="ease-in-out"><span>Quero Saber Mais</span></button></a>
     </section>
 </main>
 

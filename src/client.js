@@ -1,4 +1,5 @@
 import * as sapper from '@sapper/app';
+import AOS from 'aos';
 
 sapper.start({
 	target: document.querySelector('#sapper')
@@ -15,3 +16,5 @@ document.addEventListener("mousemove", (e) => {
 
   bg.style.transform = `translate3d(-${mouseX}%, -${mouseY}%, 0)`;
 });
+
+AOS.init();

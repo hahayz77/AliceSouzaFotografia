@@ -26,11 +26,13 @@ let deposActive = [];
 
 <section>
     <div class="container jumbotron">
-        <h2 class="text-center">Depoimentos</h2>
+        <h2 class="text-center" data-aos="fade-up" data-aos-delay="100" data-aos-easing="ease-out">Depoimentos</h2>
         <div class="row">
         {#each depos as { id, src, titulo }, i}
             <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                <a href="/" on:click={()=> {deposActive = depos[i]}} data-toggle="modal" data-target=".bd-example-modal-xl"><img class="d-block mx-auto img" src="{src}" alt="img {id}"></a>
+                <a href="/" on:click={()=> {deposActive = depos[i]}} data-toggle="modal" data-target=".bd-example-modal-xl">
+				<img class="d-block mx-auto img" src="{src}" alt="img {id}" data-aos="zoom-in" data-aos-delay="{i*100}" data-aos-easing="ease-in-out">
+				</a>
             </div>
         {/each}
         </div>

@@ -28,10 +28,10 @@
 <main class="bg-white">
 	<section class="container jumbotron">
 		<div class="container">
-			<h1 class="text-center">Contato</h1>
-			<p class="text-center">Preencha os campos abaixo para entrar em contato comigo pelo Whatsapp ou E-mail.</p>
+			<h1 class="text-center" data-aos="fade-up" data-aos-delay="100" data-aos-easing="ease-out">Contato</h1>
+			<p class="text-center" data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-out">Preencha os campos abaixo para entrar em contato comigo pelo Whatsapp ou E-mail.</p>
 			<div class="row text-center">
-				<div class="col mt-3 mb-0">
+				<div class="col mt-3 mb-0" data-aos="fade-in" data-aos-delay="200" data-aos-easing="ease-out">
 					<ul class="mb-0 pl-0 select">
 						<input type="radio" bind:group={select} value="1" id="i1">
 						<label for="i1"><i class="fa fa-5x fa-whatsapp cselect card-header"></i></label>
@@ -42,7 +42,7 @@
 			</div>
 			
 			{#if select === "1"}
-			<form>
+			<form data-aos="fade-in" data-aos-delay="200" data-aos-easing="ease-out">
 				<div class="row card card-body">
 					<div class="col-lg-6 mx-auto pb-3">
 						<p class="col-form-label">Nome* <span>Campo obrigatório</span></p>
@@ -86,7 +86,7 @@
 				</div>
 			</form>
 			{:else}
-			<form on:submit|preventDefault={()=>{alert("Esta opção ainda não está disponível. Entre em contato via whatsapp.")}}>
+			<form on:submit|preventDefault={()=>{alert("Esta opção ainda não está disponível. Entre em contato via whatsapp.")}} data-aos="fade-in" data-aos-delay="200" data-aos-easing="ease-out">
 				<div class="row card card-body">
 					<div class="col-lg-6 mx-auto">
 						<p class="col-form-label">Nome* <span>Campo obrigatório</span></p>
@@ -111,7 +111,7 @@
 
 
 	<section class="container jumbotron">
-		<h2 class="text-center">Perguntas Frequêntes</h2>
+		<h2 class="text-center" data-aos="fade-up" data-aos-delay="100" data-aos-easing="ease-out">Perguntas Frequêntes</h2>
 		<div class="accordion-1">
 			<div class="container">
 				<div class="row">

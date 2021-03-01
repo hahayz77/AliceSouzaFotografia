@@ -54,7 +54,9 @@
 	<div class="container jumbotron">
 		<div class="row">
 			{#each imgs as { id, src, name, link, descrição, titulo, hover, alt }, i}
-					<a href="{link}" class="col-md-6 px-3 mb-4 overflow-hidden" on:mouseenter={() => {hover = true}} on:mouseleave={() => {hover = false}} on:click={modalclick(imgs[i])} data-toggle="modal" data-target=".bd-example-modal-xl">
+					<a href="{link}" class="col-md-6 px-3 mb-4 overflow-hidden" on:mouseenter={() => {hover = true}} on:mouseleave={() => {hover = false}} 
+					on:click={modalclick(imgs[i])} data-toggle="modal" data-target=".bd-example-modal-xl"
+					data-aos="{i%2 === 0 ? "fade-right" : "fade-left"}" data-aos-delay="{i*100}" data-aos-easing="ease-out">
 						<img src="{src}" alt="{alt}">
 						<div class="descr px-3">
 							<div class="back d-flex align-items-center">
