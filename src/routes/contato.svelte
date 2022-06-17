@@ -49,9 +49,9 @@
 						<div class="">
 							<input required={true} type="text" class="form-control" placeholder="Nome" bind:value={name}>
 						</div>
-						<p class="col-form-label">Data Prevista do Evento</p>
+						<p class="col-form-label">Informações necessárias</p>
 						<div class="">
-							<input type="text" class="form-control" placeholder="Data" bind:value={data}>
+							<input type="text" class="form-control" placeholder="Data, horário e local" bind:value={data}>
 						</div>
 					</div>
 					<div class="col-lg-6 mx-auto">
